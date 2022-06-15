@@ -19,6 +19,12 @@ variable "cluster_sla" {
   type        = string
 }
 
+variable "cluster_type" {
+  description = "Cluster Type"
+  type        = string
+  default     = null
+}
+
 variable "cluster_provider" {
   description = "Cluster Provider name"
   type        = string
